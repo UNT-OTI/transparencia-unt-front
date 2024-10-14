@@ -1,0 +1,66 @@
+<div class="image-container">
+  <div class="overlay">
+    <div class="m">
+      <h3 class="text-3xl font-semibold">Transparencia Universitaria</h3>
+      <hr class="w-48 h-1 mx-auto my-4 border-0 rounded md:my-6 slide-in-left">
+      <p class="text-justify tracking-tighter text-lg">
+          Según el Art. 11 de La Ley N° 30220, Ley universitaria, las universidades públicas y privadas deben difundir en su portal electrónico de forma permanente y actualizada, información académica e institucional para conocimiento de la comunidad universitaria.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .image-container {
+    position: relative;
+    height: 350px; /* Mantener la altura fija */
+    background-image: url('../../public/images/transparencia.jpg'); /* Imagen de fondo */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Esto genera el efecto parallax */
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Sombra sobre la imagen */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .m {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  hr {
+    background-color: #E6AD09;
+  }
+
+  .slide-in-left {
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: slideInLeft 3s forwards;
+  }
+
+  @keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+</style>

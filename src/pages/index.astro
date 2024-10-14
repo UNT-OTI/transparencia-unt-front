@@ -1,0 +1,40 @@
+---
+import BannerImage from "../components/BannerImage.astro";
+import Card from "../components/Card.astro";
+import TopBanner from "../components/TopBanner.astro";
+import TopMenu from "../components/TopMenu.astro";
+import Layout from "../layouts/Layout.astro";
+import { ley_universitaria } from "../util/info_uni.js";
+---
+
+<Layout pageTitle="Página transparencia unt">
+	<TopBanner />
+	<TopMenu />
+	<BannerImage />
+	<div class="my-8 mx-28 grid-container">
+		{	
+			ley_universitaria.map((item, index) => (
+				<Card contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
+			))
+		}
+	</div>	
+</Layout>
+
+<style>
+	.grid-container{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 40px;
+		padding: 30px;
+	}
+</style>
+
+
+  
+  <!-- .card {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+  } -->
+  

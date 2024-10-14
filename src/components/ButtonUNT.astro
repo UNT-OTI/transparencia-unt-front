@@ -1,0 +1,21 @@
+---
+interface Props{
+    text: String
+}
+
+const { text } = Astro.props;
+---
+
+<a type="button" class="px-6 py-3.5 text-base font-medium text-white focus:outline-none rounded-lg text-center" href="https://intranet.unitru.edu.pe/" target="_blank>
+    <i class="fa-solid fa-users mr-2"></i>
+    { text }
+</a>
+<style>
+    a{
+        background-color: #12377B;
+    }
+
+    a:hover{
+        background-color: #E6AD09;
+    }
+</style>
