@@ -2,13 +2,68 @@
 
 ---
 
-interface Props{
+<footer class="bg-gray-900 text-white py-10">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left px-10">
+        <!-- Local Central -->
+        <div class="">
+            <h3 class="text-lg font-semibold text-[#E6AD09] mb-2">Local Central:</h3>
+            <hr class="w-16 h-1 bg-[#E6AD09] mb-4 mx-auto md:mx-0">
+            <p>Jr. Diego de Almagro N° 344 Trujillo - La Libertad</p>
+            <p>Jr. Independencia N° 389 Trujillo - La Libertad</p>
+            <h3 class="mt-6 text-lg font-semibold text-[#E6AD09] mb-2">Ciudad Universitaria:</h3>
+            <hr class="w-16 h-1 bg-yellow-500 mb-4 mx-auto md:mx-0">
+            <p>Av. Juan Pablo II S/N Urb. San Andrés Trujillo – La Libertad</p>
+        </div>
 
-}
+        <!-- Datos de Contacto -->
+        <div>
+            <h3 class="text-lg font-semibold text-[#E6AD09] mb-2">Datos de Contacto:</h3>
+            <hr class="w-16 h-1 bg-yellow-500 mb-4 mx-auto md:mx-0">
+            <p class="mb-2"><i class="fas fa-phone mr-2"></i>(044) 209020</p>
+            <p class="mb-2"><i class="fas fa-envelope mr-2"></i>tdsgunt@unitru.edu.pe</p>
+            <p class="mb-2"><i class="fas fa-globe mr-2"></i><a href="https://www.unitru.edu.pe" class="hover:underline">https://www.unitru.edu.pe</a></p>
+        </div>
 
-<div>
+        <!-- Sobre Este Sitio -->
+        <div>
+            <h3 class="text-lg font-semibold text-[#E6AD09] mb-2">Sobre Este Sitio</h3>
+            <hr class="w-16 h-1 bg-yellow-500 mb-4 mx-auto md:mx-0">
+            <ul class="space-y-2">
+                <li><a href="#" class="hover:underline">Términos y condiciones de Uso</a></li>
+                <li><a href="#" class="hover:underline">Política de Privacidad</a></li>
+                <li><a href="#" class="hover:underline">Soporte</a></li>
+            </ul>
+        </div>
+    </div>
 
-</div>
+    <!-- Redes sociales y Copyright -->
+    <div class="container mx-auto mt-8 flex flex-col md:flex-row justify-between items-center text-sm px-10">
+        <div class="flex space-x-4 mb-4 md:mb-0">
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="text-center">Copyright ©2024 Universidad Nacional de Trujillo. Todos los derechos reservados</p>
+    </div>
+</footer>
+
+<!-- Botón para ir al inicio -->
+<a href="#" id="scroll-top" class="fixed bottom-6 right-6 bg-gray-800 hover:bg-gray-700 text-white rounded-full p-4 shadow-lg transition-all duration-300">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script>
+    // Scroll suave al inicio
+    document.getElementById('scroll-top').addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
+
+
 
 <style>
 
