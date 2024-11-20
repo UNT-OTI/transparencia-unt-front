@@ -8,7 +8,8 @@ export const ley_universitaria = [
         "id"         : 2,
         "descripcion": "Las actas aprobadas en las sesiones de Consejo de Facultad, de Consejo Universitario y de \n"
                        +"Asamblea Universitaria.",
-        "icon"       : 'fa-solid fa-file-lines'
+        "icon"       : 'fa-solid fa-file-lines',
+        "url"        : 'https://resoluciones.unitru.edu.pe/'
     },
     {
         "id"         : 3,

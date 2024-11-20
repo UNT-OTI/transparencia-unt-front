@@ -15,7 +15,7 @@ import { ley_universitaria } from "../util/info_uni.js";
 	<div class="my-8 mx-28 grid-container">
 		{	
 			ley_universitaria.map((item, index) => (
-				<Card contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
+					<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
 			))
 		}
 	</div>
@@ -30,13 +30,3 @@ import { ley_universitaria } from "../util/info_uni.js";
 		padding: 30px;
 	}
 </style>
-
-
-  
-  <!-- .card {
-	background-color: #f0f0f0;
-	padding: 20px;
-	border: 1px solid #ccc;
-	text-align: center;
-  } -->
-  
