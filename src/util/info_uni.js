@@ -20,7 +20,7 @@ export const ley_universitaria = [
     {
         "id"         : 4,
         "descripcion": "Relación y número de becas y créditos educativos disponibles y otorgados en el año en curso.",
-        "icon"       : 'fa-solid fa-hand-holding-dollar'
+        "icon"       : 'fa-solid fa-file-invoice-dollar'
     },
     {
         "id"         : 5,
@@ -52,5 +52,10 @@ export const ley_universitaria = [
         "id"         : 10,
         "descripcion": "El número de postulantes, ingresantes, matriculados y egresados por año y carrera.",
         "icon"       : 'fa-solid fa-list-ol'
-    }
+    },
+    {
+        "id"         : 11,
+        "descripcion": "Las remuneraciones, bonificaciones y demás estímulos que se pagan a las autoridades y docentes en cada categoría, por todo concepto, son publicados de acuerdo a la normativa aplicable",
+        "icon"       : 'fa-solid fa-hand-holding-dollar'
+    },
 ];

@@ -12,12 +12,16 @@ import { ley_universitaria } from "../util/info_uni.js";
 	<TopBanner />
 	<TopMenu />
 	<BannerImage />
-	<div class="my-8 mx-28 grid-container">
-		{	
-			ley_universitaria.map((item, index) => (
-					<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
-			))
-		}
+	<section class="antialiased dark:bg-gray-900 md:py-16">
+		<div class="mx-auto max-w-screen-2xl px-4 2xl:px-0">
+			<div class="grid-container">
+				{	
+					ley_universitaria.map((item, index) => (
+							<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
+					))
+				}
+			</div>
+		</div>
 	</div>
 	<Footer />
 </Layout>
@@ -26,7 +30,7 @@ import { ley_universitaria } from "../util/info_uni.js";
 	.grid-container{
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 40px;
+		gap: 60px;
 		padding: 30px;
 	}
 </style>
