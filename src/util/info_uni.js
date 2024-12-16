@@ -55,7 +55,8 @@ export const ley_universitaria = [
     },
     {
         "id"         : 11,
-        "descripcion": "Las remuneraciones, bonificaciones y demás estímulos que se pagan a las autoridades y docentes en cada categoría, por todo concepto, son publicados de acuerdo a la normativa aplicable",
-        "icon"       : 'fa-solid fa-hand-holding-dollar'
+        "descripcion": "Las remuneraciones, bonificaciones y demás estímulos que se pagan a las autoridades y docentes en cada categoría, por todo concepto, son publicados de acuerdo a la normativa aplicable.",
+        "icon"       : 'fa-solid fa-hand-holding-dollar',
+        'url'        : '/ultimoParrafo'
     },
 ];

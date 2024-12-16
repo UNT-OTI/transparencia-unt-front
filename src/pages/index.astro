@@ -17,7 +17,7 @@ import { ley_universitaria } from "../util/info_uni.js";
 			<div class="grid-container">
 				{	
 					ley_universitaria.map((item, index) => (
-							<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
+						<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon }/>
 					))
 				}
 			</div>
