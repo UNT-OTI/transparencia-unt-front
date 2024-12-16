@@ -1,37 +1,39 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import BannerImage from "../components/BannerImage.astro";
 import TopBanner from "../components/TopBanner.astro";
 import TopMenu from "../components/TopMenu.astro";
+import Footer from "../components/Footer.astro";
 ---
 
 <Layout pageTitle="Información Adicional">
     <TopBanner />
 	  <TopMenu />
-  <section class="max-w-6xl mx-auto my-16 px-4">
-    <div class="mb-4">
-      <a href="/" class="text-[#12377B] hover:underline">
-        <i class="fa-solid fa-left-long mr-2"></i>Atrás        
-      </a>
-      <h1 class="text-4xl font-medium text-[#12377B] m-4">Documentos Administrativos</h1>
-    </div>
-    <div class="mt-10">
-      <div class="max-w p-2 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">          
-        <h5 class="p-4 text-xl font-normal tracking-tight text-gray-900 dark:text-white">
-          <i class="fa-solid fa-sack-dollar text-[#12377B] text-2xl mr-2"></i> 
-          Remuneraciones, bonificaciones y demas estímulos que se pagan a las autoridades en cada categoría, por todo concepto.
-        </h5>
-        <div class="p-4 sm:ml-8">
-          <a type="button"
-            class="ml-0 sm:ml-1 text-red-500 hover:text-white border border-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
-            href="/files/reporte_pago_autoridades_2019.pdf"
-            target="_blank">
-            <i class="fa-regular fa-file-pdf mr-2"></i>2019
-          </a>
-        </div>
-      </div>            
-    </div>
-  </section>
+    <section class="max-w-6xl mx-auto my-16 px-4">
+      <div class="mb-4">
+        <a href="/" class="text-[#12377B] hover:underline">
+          <i class="fa-solid fa-left-long mr-2"></i>Atrás        
+        </a>
+        <h1 class="text-4xl font-medium text-[#12377B] m-4">Documentos Administrativos</h1>
+      </div>
+      <div class="mt-10">
+        <div class="border-l-4 border-[#12377B] max-w p-2 border border-t-gray-200 border border-r-gray-200 border border-b-gray-200 bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <h5 class="p-4 text-xl font-normal tracking-tight text-gray-900 dark:text-white">
+            <i class="fa-solid fa-sack-dollar text-[#12377B] text-2xl mr-2"></i> 
+            Remuneraciones, bonificaciones y demas estímulos que se pagan a las autoridades en cada categoría, por todo concepto.
+          </h5>        
+          <div class="p-4 sm:ml-8">
+            <p class="font-normal text-gray-400 dark:text-gray-200 mb-4">Transparencia de Universidades – Ley 30220</p>
+            <a type="button"
+              class="ml-0 sm:ml-1 text-red-500 hover:text-white border border-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-2 py-1 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900"
+              href="/files/reporte_pago_autoridades_2019.pdf"
+              target="_blank">
+              <i class="fa-regular fa-file-pdf mr-2"></i>2019
+            </a>
+          </div>
+        </div>            
+      </div>
+    </section>
+    <Footer />
 </Layout>
 
 <style>
