@@ -9,7 +9,8 @@ export const ley_universitaria = [
         "descripcion": "Las actas aprobadas en las sesiones de Consejo de Facultad, de Consejo Universitario y de \n"
                        +"Asamblea Universitaria.",
         "icon"       : 'fa-solid fa-file-lines',
-        "url"        : 'https://resoluciones.unitru.edu.pe/'
+        "url"        : 'https://resoluciones.unitru.edu.pe/',
+        'display'    : '_blank'
     },
     {
         "id"         : 3,
@@ -57,6 +58,6 @@ export const ley_universitaria = [
         "id"         : 11,
         "descripcion": "Las remuneraciones, bonificaciones y demás estímulos que se pagan a las autoridades y docentes en cada categoría, por todo concepto, son publicados de acuerdo a la normativa aplicable.",
         "icon"       : 'fa-solid fa-hand-holding-dollar',
-        'url'        : '/ultimoParrafo'
+        'url'        : '/ultimoParrafo',
     },
 ];
