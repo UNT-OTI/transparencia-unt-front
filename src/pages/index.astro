@@ -4,21 +4,21 @@ import Card from "../components/Card.astro";
 import Footer from "../components/Footer.astro";
 import TopBanner from "../components/TopBanner.astro";
 import TopMenu from "../components/TopMenu.astro";
-import Layout from "../layouts/Layout.astro";
-import { ley_universitaria } from "../util/info_uni.js";
+import MainLayout from "../layouts/MainLayout.astro";
+import { numerales_articulo_11_ley_universitaria } from "../util/numerales_ley_universitaria/info_numerales.ts";
 ---
 
-<Layout pageTitle="Página transparencia unt">
+<MainLayout pageTitle="Página transparencia unt">
 	<TopBanner />
 	<TopMenu />
 	<BannerImage title={'Transparencia Universitaria'} 
 			content = {'Según el Art. 11 de La Ley N° 30220, Ley universitaria, las universidades públicas y privadas deben difundir en su portal electrónico de forma permanente y actualizada, información académica e institucional para conocimiento de la comunidad universitaria.'}
 			size={'big'}/>
-	<section class="antialiased dark:bg-gray-900 md:py-16">
+	<section class="antialiased dark:bg-gray-900">
 		<div class="mx-auto max-w-screen-2xl px-4 2xl:px-0">
-			<div class="grid-container">
+			<div class="grid-container py-[30px] md:px-[30px] gap-5">
 				{	
-					ley_universitaria.map((item, index) => (
+					numerales_articulo_11_ley_universitaria.map((item, index) => (
 						<Card url = {item.url || ''} contador = {index + 1}  descripcion = { item.descripcion } icon = { item.icon } display = {item.display}/>
 					))
 				}
@@ -26,13 +26,23 @@ import { ley_universitaria } from "../util/info_uni.js";
 		</div>
 	</div>
 	<Footer />
-</Layout>
+</MainLayout>
 
 <style>
 	.grid-container{
 		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 60px;
-		padding: 30px;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	@media(min-width: 1024px){
+		.grid-container {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media(min-width: 1708px){
+		.grid-container {
+			grid-template-columns: repeat(3, 1fr);
+		}
 	}
 </style>

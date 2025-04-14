@@ -8,9 +8,10 @@ import ButtonUNT from "./ButtonUNT.astro";
         <a href="https://unitru.edu.pe/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/images/logo_completo.png" class="h-20 logo" alt="Universidad Nacional de Trujillo" />
         </a>
-        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+
+        <div class="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <ButtonUNT text="Intranet" />
-            <button data-collapse-toggle="navbar-unt" type="button"
+            <button data-collapse-toggle="navbar-unt" type="button" id="navbar-unt-button"
             class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
@@ -20,40 +21,64 @@ import ButtonUNT from "./ButtonUNT.astro";
                 </svg>
             </button>
         </div>
+
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-unt">
             <div class="flex-1 flex justify-center">
                 <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=10402" target="_blank"
+                        <a title="Portal de Transparencia" href="https://www.transparencia.gob.pe/enlaces/pte_transparencia_enlaces.aspx?id_entidad=10402" target="_blank"
                         class="flex items-center text-gray-900 py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                             <img src="/images/svg-icons/research.svg" alt="Ir al portal de transparencia" class="h-8 w-8 mr-2" />
-                            Portal de Transparencia
+                            <span class="hidden 2xl:inline">Portal de Transparencia</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://reclamos.servicios.gob.pe/?institution_id=247" target="_blank"
+                        <a title="Libro de Reclamaciones" href="https://reclamos.servicios.gob.pe/?institution_id=247" target="_blank"
                         class="flex items-center text-gray-900 py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
-                            <img src="/images/svg-icons/book.svg" alt="Ir al libro de reclamaciones" class="h-8 w-8 mr-2" />
-                            Libro de Reclamaciones
+                            <img src="/images/svg-icons/book.svg" alt="Ir al libro de reclamaciones" class="h-8 w-8 mr-2" /> 
+                            <span class="hidden 2xl:inline">Libro de Reclamaciones</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://facilita.gob.pe/t/2630" target="_blank"
+                        <a title="Mesa de Partes Virtual" href="https://facilita.gob.pe/t/2630" target="_blank"
                         class="flex items-center text-gray-900 py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                             <img src="/images/svg-icons/mesa-partes.svg" alt="Ir a mesa de partes" class="h-8 w-8 mr-2" />
-                            Mesa de Partes Virtual
+                            <span class="hidden 2xl:inline">Mesa de Partes Virtual</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://posgradount.prod.sgr.gttinternacional.com/" target="_blank"
+                        <a title="POSTGRADO | Pagos en Línea" href="https://posgradount.prod.sgr.gttinternacional.com/" target="_blank"
                         class="flex items-center text-gray-900 py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">
                             <img src="/images/svg-icons/payments.svg" alt="Ir a pagos en línea" class="h-8 w-8 mr-2" />
-                            POSTGRADO | Pagos en Línea
+                            <span class="hidden 2xl:inline">POSTGRADO | Pagos en Línea</span>
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-  </nav>
+</nav>
   
+<script>
+    const navbarUNTButton = document.querySelector("#navbar-unt-button")
+    const linkElements = document.querySelectorAll("a > span");
+    navbarUNTButton.addEventListener("click", (e)=>{
+        e.preventDefault()
+        linkElements.forEach(linkElement => {
+            linkElement.classList.remove("hidden")
+        })
+    })
+
+    window.addEventListener("resize", () => {
+        if(window.innerWidth < 768){
+            linkElements.forEach(linkElement => {
+                linkElement.classList.remove("hidden");
+            })
+        }
+        if(window.innerWidth >= 768){
+            linkElements.forEach(linkElement => {
+                linkElement.classList.add("hidden");
+            })
+        }
+    })
+</script>
