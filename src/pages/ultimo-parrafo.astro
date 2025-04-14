@@ -1,0 +1,31 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+import ContentArticlePageLayout from "../layouts/ContentArticlePageLayout.astro";
+import TopBanner from "../components/TopBanner.astro";
+import TopMenu from "../components/TopMenu.astro";
+import Footer from "../components/Footer.astro";
+import BannerImage from "../components/BannerImage.astro";
+import ArticleInformationCard from "../components/ArticleInformationCard.astro";
+import { data_ultimo_parrafo } from "../util/data-ultimo-parrafo/info_ultimo_parrafo.ts";
+---
+
+<MainLayout pageTitle="Último párrafo del artículo 11">
+    <TopBanner />
+	<TopMenu />
+    <BannerImage title={"Documentos Públicos Administrativos"} content = {} size={"small"}/>
+    <ContentArticlePageLayout>
+      {
+        data_ultimo_parrafo.map(item => (
+          <ArticleInformationCard
+            label={item.label}
+            lawInformation={item.lawInformation}
+            fileButtonTooltip={item.fileButtonTooltip}
+            filePath={item.filePath}
+            icon={item.icon}
+            year={item.year}
+          />
+        ))
+      }
+    </ContentArticlePageLayout>
+    <Footer />
+</MainLayout>
