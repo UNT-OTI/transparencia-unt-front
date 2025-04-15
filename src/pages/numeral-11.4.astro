@@ -17,12 +17,12 @@ import { data_numeral_11_4 } from "../util/data-numeral-11.4/info_11.4.ts";
       {
         data_numeral_11_4.map(item => (
           <ArticleInformationCard
-            label={item.label}
-            lawInformation={item.lawInformation}
-            fileButtonTooltip={item.fileButtonTooltip}
+            lawDescription={item.lawDescription}
+            lawSubInformation={item.lawSubInformation}
+            buttonTooltip={item.buttonTooltip}
             filePath={item.filePath}
             icon={item.icon}
-            year={item.year}
+            buttonDescription={item.buttonDescription}
           />
         ))
       }

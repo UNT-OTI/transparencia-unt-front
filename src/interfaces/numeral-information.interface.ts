@@ -1,9 +1,10 @@
 export interface NumeralInformation {
   id: number;
-  label: string;
-  lawInformation: string;
-  fileButtonTooltip: string;
+  lawDescription: string;
+  lawSubInformation: string;
+  buttonTooltip: string;
   filePath: string;
   icon: string;
-  year: string;
+  buttonDescription: string;
+  alternButtonIcon?: string;
 }
