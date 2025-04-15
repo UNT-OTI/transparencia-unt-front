@@ -8,8 +8,28 @@ interface Props {
 const { bylaws } = Astro.props
 ---
 
-<div>
-  <pre>
-    { JSON.stringify(bylaws, null, 5) }
-  </pre>
-</div>
+<table class="max-w-screen-lg">
+  <tr>
+    <th class="uppercase text-[#06133d] text-lg">Título</th>
+    <th class="uppercase text-[#06133d] text-lg">Año</th>
+    <th class="uppercase text-[#06133d] text-lg">Enlace</th>
+  </tr>
+  {
+    bylaws.map(bylaw => (
+      <tr>
+        <td class="text-center uppercase">{bylaw.title}</td>
+        <td class="text-center">{bylaw.year}</td>
+        <td class="text-center">
+          <a 
+            class="underline"
+            href={bylaw.filePath} 
+            target="_blank"
+            title={`Ver ${bylaw.title}`}
+            >
+            Ver
+          </a>
+        </td>
+      </tr>
+    ))
+  }
+</table>
