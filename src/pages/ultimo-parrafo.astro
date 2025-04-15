@@ -17,12 +17,12 @@ import { data_ultimo_parrafo } from "../util/data-ultimo-parrafo/info_ultimo_par
       {
         data_ultimo_parrafo.map(item => (
           <ArticleInformationCard
-            label={item.label}
-            lawInformation={item.lawInformation}
-            fileButtonTooltip={item.fileButtonTooltip}
+            lawDescription={item.lawDescription}
+            lawSubInformation={item.lawSubInformation}
+            buttonTooltip={item.buttonTooltip}
             filePath={item.filePath}
             icon={item.icon}
-            year={item.year}
+            buttonDescription={item.buttonDescription}
           />
         ))
       }

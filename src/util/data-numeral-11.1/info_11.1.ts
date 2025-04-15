@@ -3,33 +3,55 @@ import type { NumeralInformation } from "../../interfaces";
 export const data_numeral_11_1: NumeralInformation[] = [
   {
     id: 1,
-    label: "Estatuto de la Universidad Nacional de Trujillo 2021 - (Vigente)",
-    lawInformation:
+    lawDescription:
+      "Estatuto de la Universidad Nacional de Trujillo 2021 - (Vigente)",
+    lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
-    fileButtonTooltip: "Descargar el Estatuto UNT",
+    buttonTooltip: "Descargar el Estatuto UNT",
     filePath: "/files/numeral-11.1/estatuto_vigente_unt.pdf",
     icon: "fa-solid fa-folder",
-    year: "2021",
+    buttonDescription: "2021",
   },
   {
     id: 2,
-    label: "Texto Único de Procedimientos Administrativos (TUPA) - Vigente",
-    lawInformation:
+    lawDescription:
+      "Texto Único de Procedimientos Administrativos (TUPA) - Vigente",
+    lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
-    fileButtonTooltip: "Descargar el TUPA - UNT",
+    buttonTooltip: "Descargar el TUPA - UNT",
     filePath: "/files/numeral-11.1/tupa_unt.pdf",
     icon: "fa-solid fa-folder",
-    year: "2025",
+    buttonDescription: "2025",
   },
   {
     id: 3,
-    label: "Plan estratégico institucional 2023 - 2026",
-    lawInformation:
+    lawDescription: "Plan estratégico institucional 2023 - 2026",
+    lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
-    fileButtonTooltip:
-      "Descargar el Plan Estratégico Institucional 2023 - 2026",
+    buttonTooltip: "Descargar el Plan Estratégico Institucional 2023 - 2026",
     filePath: "/files/numeral-11.1/pei_2023_2026_unt.pdf",
     icon: "fa-solid fa-folder",
-    year: "2023",
+    buttonDescription: "2023",
+  },
+  {
+    id: 4,
+    lawDescription: "Reglamento de Organización y Funciones - ROF",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
+    buttonTooltip: "Descargar el Reglamento de Organización y Funciones",
+    filePath: "/files/numeral-11.1/rof_2022_unt.pdf",
+    icon: "fa-solid fa-folder",
+    buttonDescription: "2022",
+  },
+  {
+    id: 5,
+    lawDescription: "Reglamentos Universidad Nacional de Trujillo",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
+    buttonTooltip: "Ir a la Página de Reglamentos UNT",
+    filePath: "https://www.youtube.com/",
+    icon: "fa-solid fa-folder",
+    buttonDescription: "Enlace",
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
 ];
