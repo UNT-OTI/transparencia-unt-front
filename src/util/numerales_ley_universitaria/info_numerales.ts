@@ -6,7 +6,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     descripcion:
       "El Estatuto, el Texto Único de Procedimientos Administrativos (TUPA), el Plan Estratégico Institucional y el reglamento de la universidad.",
     icon: "fa-regular fa-folder-open",
-    url: "",
+    url: "/numeral-11.1",
   },
   {
     id: 2,
