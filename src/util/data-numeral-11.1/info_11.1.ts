@@ -1,4 +1,4 @@
-import type { NumeralInformation } from "../../interfaces";
+import type { Bylaw, NumeralInformation } from "../../interfaces";
 
 export const data_numeral_11_1: NumeralInformation[] = [
   {
@@ -49,9 +49,30 @@ export const data_numeral_11_1: NumeralInformation[] = [
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
     buttonTooltip: "Ir a la Página de Reglamentos UNT",
-    filePath: "https://www.youtube.com/",
+    filePath: "/numeral-11.1/reglamentos",
     icon: "fa-solid fa-folder",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
+  },
+];
+
+export const data_bylaws: Bylaw[] = [
+  {
+    id: 1,
+    title: "Reglamento Alumnos de Pregrado",
+    year: "2015",
+    filePath: "/files/numeral-11.1/reglamentos/pregrado_2015.pdf",
+  },
+  {
+    id: 2,
+    title: "Reglamento Docentes de Posgrado",
+    year: "Sin Fecha",
+    filePath: "/files/numeral-11.1/reglamentos/posgrado.pdf",
+  },
+  {
+    id: 3,
+    title: "Reglamento Aprobado de Estudios Generales",
+    year: "2022",
+    filePath: "/files/numeral-11.1/reglamentos/estudios_generales_2022.pdf",
   },
 ];

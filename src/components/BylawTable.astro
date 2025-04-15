@@ -1,0 +1,15 @@
+---
+import type { Bylaw } from '../interfaces'
+
+interface Props {
+  bylaws: Bylaw[];
+}
+
+const { bylaws } = Astro.props
+---
+
+<div>
+  <pre>
+    { JSON.stringify(bylaws, null, 5) }
+  </pre>
+</div>

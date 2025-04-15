@@ -1,0 +1,20 @@
+---
+import BannerImage from "../../components/BannerImage.astro";
+import Footer from "../../components/Footer.astro";
+import TopBanner from "../../components/TopBanner.astro";
+import TopMenu from "../../components/TopMenu.astro";
+import ContentArticlePageLayout from "../../layouts/ContentArticlePageLayout.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import BylawTable from "../../components/BylawTable.astro";
+import { data_bylaws } from "../../util/data-numeral-11.1/info_11.1";
+---
+
+<MainLayout pageTitle="Numeral 11.1 de la Ley Universitaria">
+  <TopBanner />
+<TopMenu />
+  <BannerImage title={"Reglamentos - UNT"} content = {} size={"small"}/>
+  <ContentArticlePageLayout>
+    <BylawTable bylaws={data_bylaws} />
+  </ContentArticlePageLayout>
+  <Footer />
+</MainLayout>
