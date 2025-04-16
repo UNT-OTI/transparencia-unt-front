@@ -61,13 +61,12 @@
 
     window.addEventListener("resize", ()=>{
         if(window.innerHeight > 1043){
-            if(footer.classList.contains("mt-[400px]")){
-                return
-            }else{
+            if(!footer.classList.contains("mt-[400px]") && footer.classList.contains("mt-10")){
+                footer.classList.remove("mt-10");
                 footer.classList.add("mt-[400px]");
             }
         }else{
-            console.log("Llega acá")
+            footer.classList.add("mt-10");
             footer.classList.remove("mt-[400px]");
         }
     })
