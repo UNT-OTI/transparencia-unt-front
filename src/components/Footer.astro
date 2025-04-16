@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <div class="container mx-auto mt-8 flex flex-col md:flex-row justify-between items-center text-sm px-10">
+    <div class="container mt- mx-auto mt-8 flex flex-col md:flex-row justify-between items-center text-sm px-10">
         <div class="flex space-x-4 mb-4 md:mb-0">
             <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
@@ -51,4 +51,23 @@
             behavior: 'smooth'
         });
     });
+    const footer = document.querySelector("footer");
+
+    document.addEventListener("DOMContentLoaded", ()=>{
+        if(document.body.scrollHeight > 1043){
+            footer.classList.add("mt-60");
+        }
+    });
+
+    window.addEventListener("resize", ()=>{
+        if(document.body.scrollHeight > 1043){
+            if(footer.classList.contains("mt-60")){
+                return
+            }else{
+                footer.classList.add("mt-60");
+            }
+        }else{
+            footer.classList.remove("mt-60");
+        }
+    })
 </script>
