@@ -45,4 +45,26 @@ export const data_numeral_11_3: NumeralInformation[] = [
     icon: "fa-solid fa-sack-dollar",
     buttonDescription: "2024",
   },
+  {
+    id: 5,
+    lawDescription: "Información de los Estados Financieros al 31/12/2019.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    buttonTooltip: "Descargar Estados Financieros al 31/12/2019",
+    filePath:
+      "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2019.pdf",
+    icon: "fa-solid fa-sack-dollar",
+    buttonDescription: "2019",
+  },
+  {
+    id: 6,
+    lawDescription: "Información de los Estados Presupuestarios al 31/12/2019.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2019",
+    filePath:
+      "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2019.pdf",
+    icon: "fa-solid fa-sack-dollar",
+    buttonDescription: "2019",
+  },
 ];
