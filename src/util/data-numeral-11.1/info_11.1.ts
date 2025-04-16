@@ -8,9 +8,10 @@ export const data_numeral_11_1: NumeralInformation[] = [
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.1",
     buttonTooltip: "Descargar el Estatuto UNT",
-    filePath: "/files/numeral-11.1/estatuto_vigente_unt.pdf",
+    filePath: "https://transparencia.unitru.edu.pe/TUPA%20UNT%20PDF.pdf",
     icon: "fa-solid fa-folder",
-    buttonDescription: "2021",
+    buttonDescription: "Enlace",
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
   {
     id: 2,
@@ -21,7 +22,8 @@ export const data_numeral_11_1: NumeralInformation[] = [
     buttonTooltip: "Descargar el TUPA - UNT",
     filePath: "/files/numeral-11.1/tupa_unt.pdf",
     icon: "fa-solid fa-folder",
-    buttonDescription: "2025",
+    buttonDescription: "Enlace",
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
   {
     id: 3,
@@ -31,7 +33,8 @@ export const data_numeral_11_1: NumeralInformation[] = [
     buttonTooltip: "Descargar el Plan Estratégico Institucional 2023 - 2026",
     filePath: "/files/numeral-11.1/pei_2023_2026_unt.pdf",
     icon: "fa-solid fa-folder",
-    buttonDescription: "2023",
+    buttonDescription: "Enlace",
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
   {
     id: 4,
@@ -41,7 +44,8 @@ export const data_numeral_11_1: NumeralInformation[] = [
     buttonTooltip: "Descargar el Reglamento de Organización y Funciones",
     filePath: "/files/numeral-11.1/rof_2022_unt.pdf",
     icon: "fa-solid fa-folder",
-    buttonDescription: "2022",
+    buttonDescription: "Enlace",
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
   {
     id: 5,

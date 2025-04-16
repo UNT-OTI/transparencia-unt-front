@@ -44,14 +44,16 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     id: 6,
     descripcion: "Proyectos de investigación y los gastos que genere.",
     icon: "fa-brands fa-searchengin",
-    url: "",
+    url: "http://picfedu.unitru.edu.pe/system/buscador.php",
+    display: "_blank",
   },
   {
     id: 7,
     descripcion:
       "Relación de pagos exigidos a los alumnos por toda índole, según corresponda.",
     icon: "fa-solid fa-file-invoice-dollar",
-    url: "",
+    url: "https://transparencia.unitru.edu.pe/TUPA%20UNT%20PDF.pdf",
+    display: "_blank",
   },
   {
     id: 8,
