@@ -54,19 +54,21 @@
     const footer = document.querySelector("footer");
 
     document.addEventListener("DOMContentLoaded", ()=>{
-        if(document.body.scrollHeight > 1043){
+        if(window.innerHeight > 1043){
             footer.classList.add("mt-[400px]");
         }
     });
 
     window.addEventListener("resize", ()=>{
-        if(document.body.scrollHeight > 1043){
+        console.log(window.innerHeight)
+        if(window.innerHeight > 1043){
             if(footer.classList.contains("mt-[400px]")){
                 return
             }else{
                 footer.classList.add("mt-[400px]");
             }
         }else{
+            console.log("Llega acá")
             footer.classList.remove("mt-[400px]");
         }
     })
