@@ -1,70 +1,76 @@
-import type { NumeralInformation } from "../../interfaces";
+import type { StatementInformation } from "../../interfaces";
 
-export const data_numeral_11_3: NumeralInformation[] = [
+export const data_numeral_11_3: StatementInformation[] = [
   {
     id: 1,
-    lawDescription: "Información de los Estados Financieros al 30/09/2024.",
+    lawDescription: "Información de los Estados Financieros del Año 2024.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Financieros al 30/09/2024",
-    filePath:
-      "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_09_2024.pdf",
     icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2024",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/09/2024",
+        buttonTooltip: "Descargar Estados Financieros al 30/09/2024",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_09_2024.pdf",
+      },
+      {
+        buttonDescription: "Al 31/12/2024",
+        buttonTooltip: "Descargar Estados Financieros al 31/12/2024",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2024.pdf",
+      },
+    ],
   },
   {
     id: 2,
-    lawDescription: "Información de los Estados Presupuestarios al 30/09/2024.",
+    lawDescription: "Información de los Estados Presupuestarios del Año 2024.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Presupuestarios al 30/09/2024",
-    filePath:
-      "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_09_2024.pdf",
     icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2024",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/09/2024",
+        buttonTooltip: "Descargar Estados Presupuestarios al 30/09/2024",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_09_2024.pdf",
+      },
+      {
+        buttonDescription: "Al 31/12/2024",
+        buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2024",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2024.pdf",
+      },
+    ],
   },
   {
     id: 3,
-    lawDescription: "Información de los Estados Financieros al 31/12/2024.",
+    lawDescription: "Información de los Estados Financieros del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Financieros al 31/12/2024",
-    filePath:
-      "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2024.pdf",
     icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2024",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 31/12/2019",
+        buttonTooltip: "Descargar Estados Financieros al 31/12/2019",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2019.pdf",
+      },
+    ],
   },
   {
     id: 4,
-    lawDescription: "Información de los Estados Presupuestarios al 31/12/2024.",
+    lawDescription: "Información de los Estados Presupuestarios del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2024",
-    filePath:
-      "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2024.pdf",
     icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2024",
-  },
-  {
-    id: 5,
-    lawDescription: "Información de los Estados Financieros al 31/12/2019.",
-    lawSubInformation:
-      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Financieros al 31/12/2019",
-    filePath:
-      "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2019.pdf",
-    icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2019",
-  },
-  {
-    id: 6,
-    lawDescription: "Información de los Estados Presupuestarios al 31/12/2019.",
-    lawSubInformation:
-      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
-    buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2019",
-    filePath:
-      "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2019.pdf",
-    icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2019",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 31/12/2019",
+        buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2019",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2019.pdf",
+      },
+    ],
   },
 ];
