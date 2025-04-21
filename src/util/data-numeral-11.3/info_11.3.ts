@@ -87,6 +87,36 @@ export const data_numeral_11_3: StatementInformation[] = [
   },
   {
     id: 5,
+    lawDescription: "Información de los Estados Financieros del Año 2022.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/06/2022",
+        buttonTooltip: "Descargar Estados Financieros al 30/06/2022",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_06_2022.pdf",
+      },
+    ],
+  },
+  {
+    id: 6,
+    lawDescription: "Información de los Estados Presupuestarios del Año 2022.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/06/2022",
+        buttonTooltip: "Descargar Estados Presupuestarios al 30/06/2022",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_06_2022.pdf",
+      },
+    ],
+  },
+  {
+    id: 7,
     lawDescription: "Información de los Estados Financieros del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
@@ -101,7 +131,7 @@ export const data_numeral_11_3: StatementInformation[] = [
     ],
   },
   {
-    id: 6,
+    id: 8,
     lawDescription: "Información de los Estados Presupuestarios del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
