@@ -147,6 +147,36 @@ export const data_numeral_11_3: StatementInformation[] = [
   },
   {
     id: 9,
+    lawDescription: "Información de los Estados Financieros del Año 2020.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 31/12/2020",
+        buttonTooltip: "Descargar Estados Financieros al 31/12/2020",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2020.pdf",
+      },
+    ],
+  },
+  {
+    id: 10,
+    lawDescription: "Información de los Estados Presupuestarios del Año 2020.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 31/12/2020",
+        buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2020",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2020.pdf",
+      },
+    ],
+  },
+  {
+    id: 11,
     lawDescription: "Información de los Estados Financieros del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
@@ -161,7 +191,7 @@ export const data_numeral_11_3: StatementInformation[] = [
     ],
   },
   {
-    id: 10,
+    id: 12,
     lawDescription: "Información de los Estados Presupuestarios del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
