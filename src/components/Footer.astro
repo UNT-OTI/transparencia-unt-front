@@ -53,19 +53,28 @@
     });
     const footer = document.querySelector("footer");
 
+    const bodyChilds = document.body.children;
+
+    let totalBodyHeight = 0;
+
+    for(let i = 0; i < bodyChilds.length; i++){
+        const child = bodyChilds[i] as HTMLElement;
+        totalBodyHeight += child.offsetHeight;
+    }
+
     document.addEventListener("DOMContentLoaded", ()=>{
-        if(window.innerHeight > 1043 && window.innerHeight < document.body.scrollHeight){
-            footer.classList.add("mt-[450px]");
+        if(window.innerHeight > 1043 && window.innerHeight > totalBodyHeight){
+            footer.classList.add("mt-[500px]");
         }
     });
 
     window.addEventListener("resize", ()=>{
-        if(window.innerHeight > 1043 && window.innerHeight < document.body.scrollHeight){
-            if(!footer.classList.contains("mt-[450px]")){
-                footer.classList.add("mt-[450px]");
+        if(window.innerHeight > 1043 && window.innerHeight > totalBodyHeight){
+            if(!footer.classList.contains("mt-[500px]")){
+                footer.classList.add("mt-[500px]");
             }
         }else{
-            footer.classList.remove("mt-[450px]");
+            footer.classList.remove("mt-[500px]");
         }
     })
 </script>
