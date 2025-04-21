@@ -54,14 +54,13 @@
     const footer = document.querySelector("footer");
 
     document.addEventListener("DOMContentLoaded", ()=>{
-        if(window.innerHeight > 1043){
-            console.log("VERIFICACION INICIAL");
-            footer.classList.add("mt-[400px]");
+        if(window.innerHeight > 1043 && window.innerHeight < document.body.scrollHeight){
+            footer.classList.add("mt-[450px]");
         }
     });
 
     window.addEventListener("resize", ()=>{
-        if(window.innerHeight > 1043 && window.innerHeight <= document.body.scrollHeight){
+        if(window.innerHeight > 1043 && window.innerHeight < document.body.scrollHeight){
             if(!footer.classList.contains("mt-[450px]")){
                 footer.classList.add("mt-[450px]");
             }
