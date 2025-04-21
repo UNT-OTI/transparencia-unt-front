@@ -23,7 +23,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
       "Los estados financieros de la universidad, el presupuesto institucional modificado en el caso \n" +
       "de las universidades públicas, la actualización de la ejecución presupuestal y balances.",
     icon: "fa-solid fa-coins",
-    url: "/numeral-11.3",
+    url: "/numeral-11.3/1",
   },
   {
     id: 4,
