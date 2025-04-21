@@ -98,6 +98,12 @@ export const data_numeral_11_3: StatementInformation[] = [
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_06_2022.pdf",
       },
+      {
+        buttonDescription: "Al 31/12/2022",
+        buttonTooltip: "Descargar Estados Financieros al 31/12/2022",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2022.pdf",
+      },
     ],
   },
   {
@@ -112,6 +118,12 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 30/06/2022",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_06_2022.pdf",
+      },
+      {
+        buttonDescription: "Al 31/12/2022",
+        buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2022",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2022.pdf",
       },
     ],
   },
