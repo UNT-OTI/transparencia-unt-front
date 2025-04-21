@@ -67,7 +67,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     descripcion:
       "Conformación del cuerpo docente, indicando clase, categoría y hoja de vida.",
     icon: "fa-solid fa-chalkboard-user",
-    url: "",
+    url: "/numeral-11.9",
   },
   {
     id: 10,
