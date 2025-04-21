@@ -1,4 +1,4 @@
-import type { NumeralInformation } from "../../interfaces";
+import type { NumeralInformation } from "@interfaces/index";
 
 export const data_numeral_11_4: NumeralInformation[] = [
   {

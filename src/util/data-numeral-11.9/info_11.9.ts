@@ -1,7 +1,7 @@
 import type {
   NumeralInformation,
   StatementInformation,
-} from "../../interfaces";
+} from "@interfaces/index";
 
 export const data_numeral_11_9: NumeralInformation[] = [
   {

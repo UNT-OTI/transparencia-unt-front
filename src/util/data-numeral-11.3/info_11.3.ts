@@ -1,4 +1,4 @@
-import type { StatementInformation } from "../../interfaces";
+import type { StatementInformation } from "@interfaces/index";
 
 export const data_numeral_11_3: StatementInformation[] = [
   {

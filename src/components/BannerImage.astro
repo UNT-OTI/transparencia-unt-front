@@ -27,20 +27,20 @@ const { title, content, size } = Astro.props;
 
   .image-container-big {
     position: relative;
-    height: 400px; /* Mantener la altura fija */
-    background-image: url('/images/transparencia.jpg'); /* Imagen de fondo */
+    height: 400px;
+    background-image: url('/images/transparencia.jpg');
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; /* Esto genera el efecto parallax */
+    background-attachment: fixed;
   }
 
   .image-container-small {
     position: relative;
-    height: 170px; /* Mantener la altura fija */
-    background-image: url('/images/documents.jpg'); /* Imagen de fondo */
+    height: 170px;
+    background-image: url('/images/documents.jpg');
     background-position: bottom;
     background-size: cover;
-    background-attachment: fixed; /* Esto genera el efecto parallax */
+    background-attachment: fixed;
   }
 
   .overlay {
@@ -49,7 +49,7 @@ const { title, content, size } = Astro.props;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.6); /* Sombra sobre la imagen */
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     display: flex;
     flex-direction: column;

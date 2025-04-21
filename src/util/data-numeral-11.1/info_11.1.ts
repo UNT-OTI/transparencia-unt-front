@@ -1,4 +1,4 @@
-import type { Bylaw, NumeralInformation } from "../../interfaces";
+import type { Bylaw, NumeralInformation } from "@interfaces/index";
 
 export const data_numeral_11_1: NumeralInformation[] = [
   {

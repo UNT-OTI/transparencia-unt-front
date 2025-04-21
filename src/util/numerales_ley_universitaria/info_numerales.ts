@@ -1,4 +1,4 @@
-import type { NumeralItem } from "../../interfaces";
+import type { NumeralItem } from "@interfaces/index";
 
 export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
   {
