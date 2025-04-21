@@ -1,10 +1,18 @@
 <section class="max-w-6xl mx-auto my-16 px-4">
   <div class="mb-4 sm:block hidden">
-    <a href="/" class="text-[#12377B] hover:underline">
+    <button id="back-btn" class="text-[#12377B] hover:underline">
       <i class="fa-solid fa-left-long mr-2"></i>Atrás
-    </a>
+    </button>
   </div>
   <div class="mt-10 flex flex-col space-y-5">
     <slot />
   </div>
 </section>
+
+<script>
+  const backButton = document.querySelector("#back-btn");
+  backButton.addEventListener("click", (e)=>{
+    e.preventDefault();
+    history.back()
+  });
+</script>
