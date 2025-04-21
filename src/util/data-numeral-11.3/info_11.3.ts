@@ -45,6 +45,48 @@ export const data_numeral_11_3: StatementInformation[] = [
   },
   {
     id: 3,
+    lawDescription: "Información de los Estados Financieros del Año 2023.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/06/2023",
+        buttonTooltip: "Descargar Estados Financieros al 30/06/2023",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_06_2023.pdf",
+      },
+      {
+        buttonDescription: "Al 31/12/2023",
+        buttonTooltip: "Descargar Estados Financieros al 31/12/2023",
+        filePath:
+          "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2023.pdf",
+      },
+    ],
+  },
+  {
+    id: 4,
+    lawDescription: "Información de los Estados Presupuestarios del Año 2023.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
+    icon: "fa-solid fa-sack-dollar",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Al 30/06/2023",
+        buttonTooltip: "Descargar Estados Presupuestarios al 30/06/2023",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_06_2023.pdf",
+      },
+      {
+        buttonDescription: "Al 31/12/2023",
+        buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2023",
+        filePath:
+          "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2023.pdf",
+      },
+    ],
+  },
+  {
+    id: 5,
     lawDescription: "Información de los Estados Financieros del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
@@ -59,7 +101,7 @@ export const data_numeral_11_3: StatementInformation[] = [
     ],
   },
   {
-    id: 4,
+    id: 6,
     lawDescription: "Información de los Estados Presupuestarios del Año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.3",
