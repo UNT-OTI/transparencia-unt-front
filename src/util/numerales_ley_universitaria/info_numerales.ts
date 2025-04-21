@@ -36,7 +36,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     id: 5,
     descripcion:
       "Inversiones, reinversiones, donaciones, obras de infraestructura, recursos de diversa fuente,\n" +
-      "entre otros",
+      "entre otros.",
     icon: "fa-solid fa-sack-dollar",
     url: "https://www.transparencia.gob.pe/reportes_directos/pte_transparencia_pro_inv.aspx?id_entidad=10402&id_tema=26&ver=1",
     display: "_blank",
