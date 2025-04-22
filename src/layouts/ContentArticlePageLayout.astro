@@ -19,7 +19,7 @@
       location.href = "/";
     }else{
       const urlSegments = currentUrl.split("/");
-      urlSegments.splice(urlSegments.length - 1, 1);
+      urlSegments.splice(urlSegments.length - 1, 2);
       const backUrl = urlSegments.join("/") || "/";
       location.href = backUrl;
     }
