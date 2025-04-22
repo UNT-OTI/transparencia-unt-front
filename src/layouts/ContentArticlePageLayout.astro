@@ -14,13 +14,13 @@
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
     const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
-    const currentUrl = location.href;
+    const currentUrl = location.pathname;
     if(regexPattern.test(currentUrl)){
       location.href = "/";
     }else{
       const urlSegments = currentUrl.split("/");
       urlSegments.splice(urlSegments.length - 1, 1);
-      const backUrl = urlSegments.join("/");
+      const backUrl = urlSegments.join("/") || "/";
       location.href = backUrl;
     }
   });
