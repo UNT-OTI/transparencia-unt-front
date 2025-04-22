@@ -4,12 +4,12 @@ export const data_numeral_11_10: NumeralInformation[] = [
   {
     id: 1,
     lawDescription:
-      "Número de ingresantes y egresados en la carrera de Medicina en el año 2019.",
+      "Número de matriculados y egresados de pregrado por programa de estudio en el año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
     buttonTooltip:
-      "Descargar información de los alumnos de Medicina en el año 2019",
-    filePath: "/files/numeral-11.10/2019/alumnos_medicina_2019.pdf",
+      "Descargar información de los matriculados y egresados de pregrado por programa de estudio en el año 2019",
+    filePath: "/files/numeral-11.10/2019/alumnos_pregrado_2019.pdf",
     icon: "fa-solid fa-list-ol",
     buttonDescription: "2019",
     hasTargetBlank: true,
@@ -17,27 +17,27 @@ export const data_numeral_11_10: NumeralInformation[] = [
   {
     id: 2,
     lawDescription:
-      "Número de ingresantes y egresados en la carrera de Medicina en el año 2020.",
+      "Número de postulantes, ingresantes, matriculados y egresados de posgrado - maestría por unidad académica en el año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
     buttonTooltip:
-      "Descargar información de los alumnos de Medicina en el año 2019",
-    filePath: "/files/numeral-11.10/2020/alumnos_medicina_2020.pdf",
+      "Descargar información del número de postulantes, ingresantes, matriculados y egresados  de posgrado - maestría por unidad académica en el año 2019",
+    filePath: "/files/numeral-11.10/2019/alumnos_posgrado_maestria_2019.pdf",
     icon: "fa-solid fa-list-ol",
-    buttonDescription: "2020",
+    buttonDescription: "2019",
     hasTargetBlank: true,
   },
   {
     id: 3,
     lawDescription:
-      "Número de ingresantes y egresados en la carrera de Medicina en el año 2021.",
+      "Número de postulantes, ingresantes, matriculados y egresados de posgrado - doctorado por unidad académica en el año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
     buttonTooltip:
-      "Descargar información de los alumnos de Medicina en el año 2021",
-    filePath: "/files/numeral-11.10/2021/alumnos_medicina_2021.pdf",
+      "Descargar información del número de postulantes, ingresantes, matriculados y egresados  de posgrado - doctorado por unidad académica en el año 2019",
+    filePath: "/files/numeral-11.10/2019/alumnos_posgrado_doctorado_2019.pdf",
     icon: "fa-solid fa-list-ol",
-    buttonDescription: "2021",
+    buttonDescription: "2019",
     hasTargetBlank: true,
   },
 ];
