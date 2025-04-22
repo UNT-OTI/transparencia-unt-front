@@ -17,14 +17,7 @@ import { data_numeral_11_1 } from "@util/data-numeral-11.1/info_11.1";
       {
         data_numeral_11_1.map(item => (
           <ArticleInformationCard
-            lawDescription={item.lawDescription}
-            lawSubInformation={item.lawSubInformation}
-            buttonTooltip={item.buttonTooltip}
-            filePath={item.filePath}
-            icon={item.icon}
-            buttonDescription={item.buttonDescription}
-            alternButtonIcon={item?.alternButtonIcon}
-            hasTargetBlank={item.hasTargetBlank}
+            {...item}
           />
         ))
       }

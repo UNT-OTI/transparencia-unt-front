@@ -17,13 +17,7 @@ import { data_ultimo_parrafo } from "@util/data-ultimo-parrafo/info_ultimo_parra
       {
         data_ultimo_parrafo.map(item => (
           <ArticleInformationCard
-            lawDescription={item.lawDescription}
-            lawSubInformation={item.lawSubInformation}
-            buttonTooltip={item.buttonTooltip}
-            filePath={item.filePath}
-            icon={item.icon}
-            buttonDescription={item.buttonDescription}
-            hasTargetBlank={item.hasTargetBlank}
+            {...item}
           />
         ))
       }
