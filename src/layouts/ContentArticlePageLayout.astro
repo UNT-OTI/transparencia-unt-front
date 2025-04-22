@@ -13,7 +13,7 @@
   const backButton = document.querySelector("#back-btn");
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
-    const regexPattern = /numeral-11\.([1-9]\d*)\/([1-9]\d*)$/;
+    const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
     const currentUrl = location.href;
     if(regexPattern.test(currentUrl)){
       location.href = "/";
