@@ -12,5 +12,6 @@ export const data_numeral_11_8: NumeralInformation[] = [
     filePath: "/files/numeral-11.8/2019/nro_alumnos_estomatologia_2019.pdf",
     icon: "fa-solid fa-school",
     buttonDescription: "2019",
+    hasTargetBlank: true,
   },
 ];

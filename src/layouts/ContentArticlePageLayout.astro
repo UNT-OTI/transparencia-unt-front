@@ -13,6 +13,13 @@
   const backButton = document.querySelector("#back-btn");
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
-    history.back()
+    const urlSegments = location.href.split("/");
+    urlSegments.splice(urlSegments.length - 1, 1);
+    const backUrl = urlSegments.join("/");
+    if(backUrl.endsWith("numeral-11.3")){
+      location.href = "/";
+    }else{
+      location.href = backUrl;
+    }
   });
 </script>

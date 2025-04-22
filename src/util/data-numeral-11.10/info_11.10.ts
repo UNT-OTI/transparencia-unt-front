@@ -12,6 +12,7 @@ export const data_numeral_11_10: NumeralInformation[] = [
     filePath: "/files/numeral-11.10/2019/alumnos_medicina_2019.pdf",
     icon: "fa-solid fa-list-ol",
     buttonDescription: "2019",
+    hasTargetBlank: true,
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const data_numeral_11_10: NumeralInformation[] = [
     filePath: "/files/numeral-11.10/2020/alumnos_medicina_2020.pdf",
     icon: "fa-solid fa-list-ol",
     buttonDescription: "2020",
+    hasTargetBlank: true,
   },
   {
     id: 3,
@@ -36,5 +38,6 @@ export const data_numeral_11_10: NumeralInformation[] = [
     filePath: "/files/numeral-11.10/2021/alumnos_medicina_2021.pdf",
     icon: "fa-solid fa-list-ol",
     buttonDescription: "2021",
+    hasTargetBlank: true,
   },
 ];

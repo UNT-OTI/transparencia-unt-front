@@ -2,6 +2,7 @@ export interface RangeStatementItem {
   buttonDescription: string;
   buttonTooltip: string;
   filePath: string;
+  hasTargetBlank?: boolean;
 }
 
 export interface StatementInformation {

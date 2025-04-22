@@ -12,6 +12,7 @@ export const data_numeral_11_4: NumeralInformation[] = [
     filePath: "/files/numeral-11.4/2019/becas_estomatologia_2019.pdf",
     icon: "fa-solid fa-graduation-cap",
     buttonDescription: "2019",
+    hasTargetBlank: true,
   },
   {
     id: 2,
@@ -24,5 +25,6 @@ export const data_numeral_11_4: NumeralInformation[] = [
     filePath: "/files/numeral-11.4/2022/becas_medicina_2022.pdf",
     icon: "fa-solid fa-graduation-cap",
     buttonDescription: "2022",
+    hasTargetBlank: true,
   },
 ];

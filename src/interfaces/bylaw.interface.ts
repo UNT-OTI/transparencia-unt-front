@@ -3,4 +3,5 @@ export interface Bylaw {
   title: string;
   year: string;
   filePath: string;
+  hasTargetBlank?: boolean;
 }

@@ -12,6 +12,7 @@ export const data_numeral_11_1: NumeralInformation[] = [
     icon: "fa-solid fa-folder",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
+    hasTargetBlank: true,
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const data_numeral_11_1: NumeralInformation[] = [
     icon: "fa-solid fa-folder",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
+    hasTargetBlank: true,
   },
   {
     id: 3,
@@ -35,6 +37,7 @@ export const data_numeral_11_1: NumeralInformation[] = [
     icon: "fa-solid fa-folder",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
+    hasTargetBlank: true,
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ export const data_numeral_11_1: NumeralInformation[] = [
     icon: "fa-solid fa-folder",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
+    hasTargetBlank: true,
   },
   {
     id: 5,
@@ -66,17 +70,20 @@ export const data_bylaws: Bylaw[] = [
     title: "Reglamento Alumnos de Pregrado",
     year: "2015",
     filePath: "/files/numeral-11.1/reglamentos/pregrado_2015.pdf",
+    hasTargetBlank: true,
   },
   {
     id: 2,
     title: "Reglamento Docentes de Posgrado",
     year: "Sin Fecha",
     filePath: "/files/numeral-11.1/reglamentos/posgrado.pdf",
+    hasTargetBlank: true,
   },
   {
     id: 3,
     title: "Reglamento Aprobado de Estudios Generales",
     year: "2022",
     filePath: "/files/numeral-11.1/reglamentos/estudios_generales_2022.pdf",
+    hasTargetBlank: true,
   },
 ];

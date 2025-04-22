@@ -7,4 +7,5 @@ export interface NumeralInformation {
   icon: string;
   buttonDescription: string;
   alternButtonIcon?: string;
+  hasTargetBlank?: boolean;
 }

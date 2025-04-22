@@ -23,7 +23,7 @@ const { bylaws } = Astro.props
           <a 
             class="underline"
             href={bylaw.filePath} 
-            target="_blank"
+            target={bylaw.hasTargetBlank ? "_blank" : "_self"}
             title={`Ver ${bylaw.title}`}
             >
             Ver

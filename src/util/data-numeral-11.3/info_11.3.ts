@@ -13,12 +13,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 30/09/2024",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_09_2024.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2024",
         buttonTooltip: "Descargar Estados Financieros al 31/12/2024",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2024.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -34,12 +36,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 30/09/2024",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_09_2024.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2024",
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2024",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2024.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -55,12 +59,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 30/06/2023",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_06_2023.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2023",
         buttonTooltip: "Descargar Estados Financieros al 31/12/2023",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2023.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -76,12 +82,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 30/06/2023",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_06_2023.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2023",
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2023",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2023.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -97,12 +105,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 30/06/2022",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_30_06_2022.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2022",
         buttonTooltip: "Descargar Estados Financieros al 31/12/2022",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2022.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -118,12 +128,14 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 30/06/2022",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_30_06_2022.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "Al 31/12/2022",
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2022",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2022.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -139,6 +151,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 31/12/2021",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2021.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -154,6 +167,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2021",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2021.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -169,6 +183,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 31/12/2020",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2020.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -184,6 +199,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2020",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2020.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -199,6 +215,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Financieros al 31/12/2019",
         filePath:
           "/files/numeral-11.3/estados-financieros/estados_financieros_al_31_12_2019.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -214,6 +231,7 @@ export const data_numeral_11_3: StatementInformation[] = [
         buttonTooltip: "Descargar Estados Presupuestarios al 31/12/2019",
         filePath:
           "/files/numeral-11.3/estados-presupuestarios/estados_presupuestarios_al_31_12_2019.pdf",
+        hasTargetBlank: true,
       },
     ],
   },

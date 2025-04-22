@@ -11,5 +11,6 @@ export const data_ultimo_parrafo: NumeralInformation[] = [
     filePath: "/files/ultimo-parrafo-art-11/reporte_pago_autoridades_2019.pdf",
     icon: "fa-solid fa-sack-dollar",
     buttonDescription: "2019",
+    hasTargetBlank: true,
   },
 ];

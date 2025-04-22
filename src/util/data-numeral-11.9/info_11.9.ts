@@ -44,6 +44,7 @@ export const data_11_9_posgrado: StatementInformation[] = [
           "Descargar Listado de Docentes UNT - Posgrado - Año 2019 I",
         filePath:
           "/files/numeral-11.9/posgrado/2019/docentes_posgrado_2019_I.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "2019 - II",
@@ -51,6 +52,7 @@ export const data_11_9_posgrado: StatementInformation[] = [
           "Descargar Listado de Docentes UNT - Posgrado - Año 2019 II",
         filePath:
           "/files/numeral-11.9/posgrado/2019/docentes_posgrado_2019_II.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -67,6 +69,7 @@ export const data_11_9_posgrado: StatementInformation[] = [
           "Descargar Listado de Docentes UNT - Posgrado - Año 2019 I",
         filePath:
           "/files/numeral-11.9/posgrado/2020/docentes_posgrado_2020_I.pdf",
+        hasTargetBlank: true,
       },
       {
         buttonDescription: "2020 - II",
@@ -74,6 +77,7 @@ export const data_11_9_posgrado: StatementInformation[] = [
           "Descargar Listado de Docentes UNT - Posgrado - Año 2019 II",
         filePath:
           "/files/numeral-11.9/posgrado/2020/docentes_posgrado_2020_II.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
@@ -90,6 +94,7 @@ export const data_11_9_posgrado: StatementInformation[] = [
           "Descargar Listado de Docentes UNT - Posgrado - Año 2021 I",
         filePath:
           "/files/numeral-11.9/posgrado/2021/docentes_posgrado_2021_I.pdf",
+        hasTargetBlank: true,
       },
     ],
   },
