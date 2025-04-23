@@ -28,7 +28,25 @@ export const data_numeral_11_9: NumeralInformation[] = [
   },
 ];
 
-export const data_11_9_pregrado: StatementInformation[] = [];
+export const data_11_9_pregrado: StatementInformation[] = [
+  {
+    id: 1,
+    lawDescription: "Listado de Docentes UNT - Pregrado - Al 07/03/2022",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "2022",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Año 2022",
+        filePath:
+          "/files/numeral-11.9/pregrado/2022/docentes_pregrado_hasta_2022.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+];
 
 export const data_11_9_posgrado: StatementInformation[] = [
   {
