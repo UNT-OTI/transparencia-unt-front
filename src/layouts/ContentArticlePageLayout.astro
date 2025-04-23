@@ -15,6 +15,11 @@
     e.preventDefault();
     const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
     const currentUrl = location.pathname;
+    if(location.href.includes("localhost")){
+      console.log("Estoy en localhost");
+    }else{
+      console.log("Estoy en producción");
+    }
     if(regexPattern.test(currentUrl)){
       location.href = "/";
     }else{
