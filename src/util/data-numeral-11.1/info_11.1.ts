@@ -75,7 +75,7 @@ export const data_bylaws: Bylaw[] = [
   {
     id: 2,
     title: "Reglamento Docentes de Posgrado",
-    year: "Sin Fecha",
+    year: "-",
     filePath: "/files/numeral-11.1/reglamentos/posgrado.pdf",
     hasTargetBlank: true,
   },
