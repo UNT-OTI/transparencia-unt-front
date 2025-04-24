@@ -6,11 +6,13 @@ export const data_ultimo_parrafo: NumeralInformation[] = [
     lawDescription:
       "Remuneraciones, bonificaciones y demas estímulos que se pagan a las autoridades en cada categoría, por todo concepto.",
     lawSubInformation:
-      "Transparencia de Universidades – Ley 30220 - Artículo 11",
-    buttonTooltip: "Descargar información del año 2019",
-    filePath: "/files/ultimo-parrafo-art-11/reporte_pago_autoridades_2019.pdf",
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Último Párrafo",
+    buttonTooltip:
+      "Descargar información de las remuneraciones, bonificaciones y demas estímulos que se pagan a las autoridades en cada categoría, por todo concepto",
+    filePath: "/files/ultimo-parrafo-art-11/reporte_pago_autoridades.pdf",
     icon: "fa-solid fa-sack-dollar",
-    buttonDescription: "2019",
+    buttonDescription: "Enlace",
     hasTargetBlank: true,
+    alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
   },
 ];
