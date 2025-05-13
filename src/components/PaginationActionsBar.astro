@@ -1,0 +1,30 @@
+---
+import type { StatementInformation } from '@interfaces/statement-information.interface'
+import type { Page } from 'astro'
+
+interface Props {
+  page: Page<StatementInformation>
+}
+
+const { page } = Astro.props;
+---
+
+<div class="flex items-center space-x-3 justify-end">
+  <p class="text-sm mt-5">
+    { page.start + 1 }-{ page.end + 1 } de { page.total } 
+  </p>
+  <p class="text-sm mt-5">|</p>
+  <div class="flex items-center space-x-1.5 mt-5">
+    <a href={page.url.prev} class:list={[{
+      "cursor-not-allowed": !page.url.prev
+    }]}>
+      <i class="text-lg fas fa-arrow-circle-left" style={{color: !page.url.prev ? "#BDBDBD" : "#06133d" }}></i>
+    </a>
+    <p class="text-sm">Página {page.currentPage}</p>
+    <a href={page.url.next} class:list={[{
+      "cursor-not-allowed": !page.url.next
+    }]}>
+      <i class="text-lg fas fa-arrow-circle-right" style={{color: !page.url.next ? "#BDBDBD" : "#06133d" }}></i>
+    </a>
+  </div>
+</div>
