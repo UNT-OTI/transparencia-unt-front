@@ -10,7 +10,7 @@ export const data_numeral_11_9: NumeralInformation[] = [
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
     buttonTooltip: "Ir a la Página de Docentes UNT - Pregrado",
-    filePath: "/numeral-11.9/docentes-pregrado",
+    filePath: "/numeral-11.9/docentes-pregrado/1",
     icon: "fa-solid fa-chalkboard-user",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
@@ -31,17 +31,150 @@ export const data_numeral_11_9: NumeralInformation[] = [
 export const data_11_9_pregrado: StatementInformation[] = [
   {
     id: 1,
-    lawDescription: "Listado de Docentes UNT - Pregrado - Al 07/03/2022",
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2024",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
     icon: "fa-solid fa-chalkboard-user",
     rangeStatementItem: [
       {
-        buttonDescription: "2022",
+        buttonDescription: "Información SIRIES",
         buttonTooltip:
-          "Descargar Listado de Docentes UNT - Pregrado - Año 2022",
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2024",
         filePath:
-          "/files/numeral-11.9/pregrado/2022/docentes_pregrado_hasta_2022.pdf",
+          "/files/numeral-11.9/pregrado/datos-siries/2024/siries_2024.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2024",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2024/personales_2024.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 2,
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2023",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Información SIRIES",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2023",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-siries/2023/siries_2023.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2023",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2023/personales_2023.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 3,
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2022",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Información SIRIES",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2022",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-siries/2022/siries_2022.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2022",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2022/personales_2022.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 4,
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2021",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Información SIRIES",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2021",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-siries/2021/siries_2021.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2021",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2021/personales_2021.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 5,
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2020",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Información SIRIES",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2020",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-siries/2020/siries_2020.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2020",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2020/personales_2020.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 6,
+    lawDescription: "Listado de Docentes UNT - Pregrado - 2019",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
+    icon: "fa-solid fa-chalkboard-user",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Información SIRIES",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2019",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-siries/2019/siries_2019.pdf",
+        hasTargetBlank: true,
+      },
+      {
+        buttonDescription: "Datos Personales",
+        buttonTooltip:
+          "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2019",
+        filePath:
+          "/files/numeral-11.9/pregrado/datos-personales/2019/personales_2019.pdf",
         hasTargetBlank: true,
       },
     ],
