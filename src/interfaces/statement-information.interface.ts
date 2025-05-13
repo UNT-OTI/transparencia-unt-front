@@ -3,6 +3,9 @@ export interface RangeStatementItem {
   buttonTooltip: string;
   filePath: string;
   hasTargetBlank?: boolean;
+  hasAlternIcon?: boolean;
+  alternIcon?: string;
+  canDownload?: boolean;
 }
 
 export interface StatementInformation {

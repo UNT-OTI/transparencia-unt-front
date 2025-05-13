@@ -41,16 +41,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2024",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2024/siries_2024.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2024/siries_2024.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2024",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2024/personales_2024.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2024/personales_2024.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
@@ -66,16 +70,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2023",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2023/siries_2023.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2023/siries_2023.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2023",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2023/personales_2023.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2023/personales_2023.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
@@ -91,16 +99,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2022",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2022/siries_2022.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2022/siries_2022.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2022",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2022/personales_2022.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2022/personales_2022.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
@@ -116,16 +128,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2021",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2021/siries_2021.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2021/siries_2021.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2021",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2021/personales_2021.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2021/personales_2021.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
@@ -141,16 +157,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2020",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2020/siries_2020.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2020/siries_2020.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2020",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2020/personales_2020.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2020/personales_2020.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
@@ -166,16 +186,20 @@ export const data_11_9_pregrado: StatementInformation[] = [
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Información SIRIES - Año 2019",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-siries/2019/siries_2019.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-siries/2019/siries_2019.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
       {
         buttonDescription: "Datos Personales",
         buttonTooltip:
           "Descargar Listado de Docentes UNT - Pregrado - Datos Personales - Año 2019",
         filePath:
-          "/files/numeral-11.9/pregrado/datos-personales/2019/personales_2019.pdf",
-        hasTargetBlank: true,
+          "/files/numeral-11.9/pregrado/datos-personales/2019/personales_2019.xlsx",
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-file-excel",
+        canDownload: true,
       },
     ],
   },
