@@ -13,15 +13,16 @@
   const backButton = document.querySelector("#back-btn");
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
-    const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
-    const currentUrl = location.pathname;
-    if(regexPattern.test(currentUrl)){
-      location.href = "/";
-    }else{
-      const urlSegments = currentUrl.split("/");
-      urlSegments.splice(urlSegments.length - 2, 2);
-      const backUrl = urlSegments.join("/") || "/";
-      location.href = backUrl;
-    }
+    location.href = "/";
+    // const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
+    // const currentUrl = location.pathname;
+    // if(regexPattern.test(currentUrl)){
+    //   location.href = "/";
+    // }else{
+    //   const urlSegments = currentUrl.split("/");
+    //   urlSegments.splice(urlSegments.length - 2, 2);
+    //   const backUrl = urlSegments.join("/") || "/";
+    //   location.href = backUrl;
+    // }
   });
 </script>
