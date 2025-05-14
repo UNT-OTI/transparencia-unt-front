@@ -18,17 +18,11 @@
     const urlSegments =  currentUrl.split("/");
     if(currentUrl.endsWith("/")){
       urlSegments.splice(urlSegments.length - 1, 1);
-      if(!isNaN(+urlSegments.at(-1))){
-        urlSegments.splice(urlSegments.length - 2, 2);
-      }else{
-        urlSegments.splice(urlSegments.length - 1, 1);
-      }
+    }
+    if(!isNaN(+urlSegments.at(-1))){
+      urlSegments.splice(urlSegments.length - 2, 2);
     }else{
-      if(!isNaN(+urlSegments.at(-1))){
-        urlSegments.splice(urlSegments.length - 2, 2);
-      }else{
-        urlSegments.splice(urlSegments.length - 1, 1);
-      }
+      urlSegments.splice(urlSegments.length - 1, 1);
     }
     urlSegments[urlSegments.length-1] = urlSegments.at(-1) || "/";
     const backUrl = urlSegments.join("/");
