@@ -19,7 +19,7 @@
     if(currentUrl.endsWith("/")){
       urlSegments.splice(urlSegments.length - 1, 1);
     }
-    else if(!isNaN(+urlSegments.at(-1))){
+    if(!isNaN(+urlSegments.at(-1))){
       urlSegments.splice(urlSegments.length - 2, 2);
     }else{
       urlSegments.splice(urlSegments.length - 1, 1);
