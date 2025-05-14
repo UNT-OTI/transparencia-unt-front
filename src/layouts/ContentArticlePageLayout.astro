@@ -14,6 +14,12 @@
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
     location.href = "/";
+    const currentUrl = location.pathname;
+    if(currentUrl.endsWith("/")){
+      console.log("Production");
+    }else{
+      console.log("Local");
+    }
     // const regexPattern = /\/numeral-11\.([1-9]\d*)\/([1-9]\d*)\/?$/;
     // const currentUrl = location.pathname;
     // if(regexPattern.test(currentUrl)){
