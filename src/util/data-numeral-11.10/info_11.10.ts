@@ -62,4 +62,22 @@ export const data_numeral_11_10: StatementInformation[] = [
       },
     ],
   },
+  {
+    id: 4,
+    lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2019.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "2019",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados  de segunda especialidad en el año 2019",
+        filePath:
+          "/files/numeral-11.10/2019/alumnos_segunda_especialidad_2019.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
 ];
