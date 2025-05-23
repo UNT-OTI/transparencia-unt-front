@@ -1,9 +1,10 @@
 ---
+import type { NumeralInformation } from '@interfaces/numeral-information.interface';
 import type { StatementInformation } from '@interfaces/statement-information.interface'
 import type { Page } from 'astro'
 
 interface Props {
-  page: Page<StatementInformation>
+  page: Page<StatementInformation | NumeralInformation>
 }
 
 const { page } = Astro.props;

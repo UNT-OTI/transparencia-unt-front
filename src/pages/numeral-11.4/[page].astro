@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from "astro";
 import MainLayout from "@layouts/MainLayout.astro"
 import ContentArticlePageLayout from "@layouts/ContentArticlePageLayout.astro";
 import TopBanner from "@components/TopBanner.astro";
@@ -7,6 +8,13 @@ import Footer from "@components/Footer.astro";
 import BannerImage from "@components/BannerImage.astro";
 import ArticleInformationCard from "@components/ArticleInformationCard.astro";
 import { data_numeral_11_4 } from "@util/data-numeral-11.4/info_11.4.ts";
+import PaginationActionsBar from "@components/PaginationActionsBar.astro";
+
+export const getStaticPaths = (({paginate}) => {
+  return paginate(data_numeral_11_4, { pageSize: 4 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
 ---
 
 <MainLayout pageTitle="Numeral 11.4 de la Ley Universitaria">
@@ -15,11 +23,20 @@ import { data_numeral_11_4 } from "@util/data-numeral-11.4/info_11.4.ts";
     <BannerImage title={"Documentos Públicos Administrativos"} content = {} size={"small"}/>
     <ContentArticlePageLayout>
       {
-        data_numeral_11_4.map(item => (
+        data_numeral_11_4.length > 0 ? 
+        <>
+          {
+            page.data.map(item => (
           <ArticleInformationCard
             {...item}
           />
-        ))
+            ))
+          }
+          <PaginationActionsBar page={page}/>
+        </>
+        : (
+            <p class="text-center my-10">No hay registros</p>
+          )
       }
     </ContentArticlePageLayout>
     <Footer />

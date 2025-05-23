@@ -30,7 +30,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     descripcion:
       "Relación y número de becas y créditos educativos disponibles y otorgados en el año en curso.",
     icon: "fa-solid fa-file-invoice-dollar",
-    url: "/numeral-11.4",
+    url: "/numeral-11.4/1",
   },
   {
     id: 5,
