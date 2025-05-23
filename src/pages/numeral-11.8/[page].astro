@@ -1,0 +1,43 @@
+---
+import type { GetStaticPaths } from "astro";
+import MainLayout from "@layouts/MainLayout.astro"
+import ContentArticlePageLayout from "@layouts/ContentArticlePageLayout.astro";
+import TopBanner from "@components/TopBanner.astro";
+import TopMenu from "@components/TopMenu.astro";
+import Footer from "@components/Footer.astro";
+import BannerImage from "@components/BannerImage.astro";
+import StatementInformationCard from "@components/StatementInformationCard.astro";
+import PaginationActionsBar from "@components/PaginationActionsBar.astro";
+import { data_numeral_11_8 } from "@util/data-numeral-11.8/info_11.8.ts";
+
+export const getStaticPaths = (({ paginate }) => {
+  return paginate(data_numeral_11_8, { pageSize: 4 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+---
+
+<MainLayout pageTitle="Numeral 11.8 de la Ley Universitaria">
+    <TopBanner />
+	<TopMenu />
+    <BannerImage title={"Documentos Públicos Administrativos"} content = {} size={"small"}/>
+    <ContentArticlePageLayout>
+      {
+        data_numeral_11_8.length > 0 ? 
+        <>
+          {
+            page.data.map(item => (
+                <StatementInformationCard
+                  statementItem={item}
+                />
+            ))
+          }
+          <PaginationActionsBar page={page}/>
+        </>
+        : (
+            <p class="text-center my-10">No hay registros</p>
+          )
+      }
+    </ContentArticlePageLayout>
+    <Footer />
+</MainLayout>
