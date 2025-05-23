@@ -1,4 +1,5 @@
 ---
+import type { GetStaticPaths } from "astro";
 import MainLayout from "@layouts/MainLayout.astro";
 import ContentArticlePageLayout from "@layouts/ContentArticlePageLayout.astro";
 import BannerImage from "@components/BannerImage.astro";
@@ -6,7 +7,14 @@ import Footer from "@components/Footer.astro";
 import StatementInformationCard from "@components/StatementInformationCard.astro";
 import TopBanner from "@components/TopBanner.astro";
 import TopMenu from "@components/TopMenu.astro";
+import PaginationActionsBar from "@components/PaginationActionsBar.astro";
 import { data_11_9_posgrado } from "@util/data-numeral-11.9/info_11.9";
+
+export const getStaticPaths = (({ paginate }) => {
+  return paginate(data_11_9_posgrado, { pageSize: 4 });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
 ---
 
 <MainLayout pageTitle="Numeral 11.9 de la Ley Universitaria | Docentes Posgrado">
@@ -16,11 +24,17 @@ import { data_11_9_posgrado } from "@util/data-numeral-11.9/info_11.9";
     <ContentArticlePageLayout>
       {
         data_11_9_posgrado.length > 0 ? 
-          data_11_9_posgrado.map(item => (
-            <StatementInformationCard
-              statementItem={item}
-            />
-          )): (
+        <>
+          {
+            page.data.map(item => (
+                <StatementInformationCard
+                  statementItem={item}
+                />
+            ))
+          }
+          <PaginationActionsBar page={page}/>
+        </>
+        : (
             <p class="text-center my-10">No hay registros</p>
           )
       }

@@ -21,7 +21,7 @@ export const data_numeral_11_9: NumeralInformation[] = [
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.9",
     buttonTooltip: "Ir a la Página de Docentes UNT - Posgrado",
-    filePath: "/numeral-11.9/docentes-posgrado",
+    filePath: "/numeral-11.9/docentes-posgrado/1",
     icon: "fa-solid fa-chalkboard-user",
     buttonDescription: "Enlace",
     alternButtonIcon: "fa-solid fa-arrow-up-right-from-square",
