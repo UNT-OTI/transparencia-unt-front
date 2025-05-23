@@ -60,7 +60,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     id: 8,
     descripcion: "Número de alumnos por facultades y programas de estudio.",
     icon: "fa-solid fa-graduation-cap",
-    url: "/numeral-11.8",
+    url: "/numeral-11.8/1",
   },
   {
     id: 9,
