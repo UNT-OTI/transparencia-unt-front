@@ -11,10 +11,11 @@
 
 <script>
   const backButton = document.querySelector("#back-btn");
+  const regex = /\/numeral-11\.10\/\d+\/?$/;
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
-    location.href = "/";
     const currentUrl = location.pathname;
+    if(regex.test(currentUrl)) return history.back();
     const urlSegments =  currentUrl.split("/");
     if(currentUrl.endsWith("/")){
       urlSegments.splice(urlSegments.length - 1, 1);

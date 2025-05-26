@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths } from "astro";
+import BannerImage from "@components/BannerImage.astro";
+import Footer from "@components/Footer.astro";
+import TopBanner from "@components/TopBanner.astro";
+import TopMenu from "@components/TopMenu.astro";
+import ContentArticlePageLayout from "@layouts/ContentArticlePageLayout.astro";
+import MainLayout from "@layouts/MainLayout.astro";
+import { data_numeral_11_10, undergraduate_information_by_year } from "@util/data-numeral-11.10/info_11.10";
+import CommonTable from "@components/CommonTable.astro";
+
+export const getStaticPaths = (() => {
+  return data_numeral_11_10.map(item => ({
+    params: { id: item.id }
+  }));
+}) satisfies GetStaticPaths;
+
+const { id } = Astro.params;
+
+const { items } = undergraduate_information_by_year.find(item => item.yearId == +id);
+---
+
+<MainLayout pageTitle="Numeral 11.10 de la Ley Universitaria">
+  <TopBanner />
+  <TopMenu />
+  <BannerImage title={"Número de Postulantes e Ingresantes"} content = {} size={"small"}/>
+  <ContentArticlePageLayout>
+    {
+      items.length > 0 ? (
+        <CommonTable items={items}/>
+      ) : (
+            <p class="text-center my-10">No hay registros</p>
+          )
+    }
+  </ContentArticlePageLayout>
+  <Footer />
+</MainLayout>

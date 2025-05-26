@@ -1,0 +1,36 @@
+---
+import type { UndergraduateInformationItem } from '@interfaces/undergraduate-information-by-year.interface'
+
+interface Props {
+  items: UndergraduateInformationItem[]
+}
+
+const { items } = Astro.props;
+---
+
+<table class="max-w-screen-lg">
+  <tr>
+    <th class="uppercase text-[#06133d] text-lg">Título</th>
+    <th class="uppercase text-[#06133d] text-lg">Enlace</th>
+  </tr>
+  {
+    items.map(item => (
+      <tr>
+        <td class="text-center uppercase">{item.label}</td>
+        <td class="text-center">
+          <a 
+            class="underline"
+            href={item.url} 
+            target="_blank"
+            title={`Ver ${item.label}`}
+            >
+            Ver
+          </a>
+        </td>
+      </tr>
+    ))
+  }
+</table>
+
+
+
