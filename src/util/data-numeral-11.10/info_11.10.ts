@@ -7,6 +7,33 @@ export const data_numeral_11_10: StatementInformation[] = [
   {
     id: 1,
     lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2020.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Pregrado",
+        buttonTooltip:
+          "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2020",
+        filePath: "/numeral-11.10/1",
+        hasTargetBlank: false,
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-arrow-up-right-from-square",
+      },
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2020",
+        filePath:
+          "/files/numeral-11.10/2020/alumnos_segunda_especialidad_2020.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 2,
+    lawDescription:
       "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2019.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
@@ -16,7 +43,7 @@ export const data_numeral_11_10: StatementInformation[] = [
         buttonDescription: "Pregrado",
         buttonTooltip:
           "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2019",
-        filePath: "/numeral-11.10/1",
+        filePath: "/numeral-11.10/2",
         hasTargetBlank: false,
         hasAlternIcon: true,
         alternIcon: "fa-solid fa-arrow-up-right-from-square",
@@ -52,7 +79,7 @@ export const data_numeral_11_10: StatementInformation[] = [
 export const undergraduate_information_by_year: UndegraduateInformationByYear[] =
   [
     {
-      yearId: 1,
+      yearId: 2,
       items: [
         {
           label: "Número de Postulantes e Ingresantes - 2019",
@@ -65,6 +92,23 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
         {
           label: "Número de Egresados - 2019",
           url: "/files/numeral-11.10/2019/alumnos_egresados_2019.pdf",
+        },
+      ],
+    },
+    {
+      yearId: 1,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2020",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2020/Admision-2020.html",
+        },
+        {
+          label: "Número de Matriculados - 2020",
+          url: "/files/numeral-11.10/2020/alumnos_pregrado_2020.pdf",
+        },
+        {
+          label: "Número de Egresados - 2020",
+          url: "/files/numeral-11.10/2020/alumnos_egresados_2020.pdf",
         },
       ],
     },
