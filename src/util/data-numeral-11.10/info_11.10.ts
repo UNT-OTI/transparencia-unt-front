@@ -79,23 +79,6 @@ export const data_numeral_11_10: StatementInformation[] = [
 export const undergraduate_information_by_year: UndegraduateInformationByYear[] =
   [
     {
-      yearId: 2,
-      items: [
-        {
-          label: "Número de Postulantes e Ingresantes - 2019",
-          url: "https://admisionunt.info/docs/historico/libros_virtuales/2019/Admision2019.html",
-        },
-        {
-          label: "Número de Matriculados - 2019",
-          url: "/files/numeral-11.10/2019/alumnos_pregrado_2019.pdf",
-        },
-        {
-          label: "Número de Egresados - 2019",
-          url: "/files/numeral-11.10/2019/alumnos_egresados_2019.pdf",
-        },
-      ],
-    },
-    {
       yearId: 1,
       items: [
         {
@@ -109,6 +92,23 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
         {
           label: "Número de Egresados - 2020",
           url: "/files/numeral-11.10/2020/alumnos_egresados_2020.pdf",
+        },
+      ],
+    },
+    {
+      yearId: 2,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2019",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2019/Admision2019.html",
+        },
+        {
+          label: "Número de Matriculados - 2019",
+          url: "/files/numeral-11.10/2019/alumnos_pregrado_2019.pdf",
+        },
+        {
+          label: "Número de Egresados - 2019",
+          url: "/files/numeral-11.10/2019/alumnos_egresados_2019.pdf",
         },
       ],
     },
