@@ -67,6 +67,14 @@ export const data_numeral_11_8: StatementInformation[] = [
         filePath: "/files/numeral-11.8/2021/alumnos_pregrado_2021.pdf",
         hasTargetBlank: true,
       },
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar Número de Estudiantes de Segunda Especialidad Matriculados por Facultad y Programa de Estudio – 2021",
+        filePath:
+          "/files/numeral-11.8/2021/alumnos_segunda_especialidad_2021.pdf",
+        hasTargetBlank: true,
+      },
     ],
   },
   {
