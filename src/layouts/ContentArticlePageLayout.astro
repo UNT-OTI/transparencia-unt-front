@@ -16,8 +16,9 @@
   backButton.addEventListener("click", (e)=>{
     e.preventDefault();
     const currentUrl = location.pathname;
-    if(regex.test(currentUrl)) return history.back();
-    if(regex2.test(currentUrl)) return location.href = "/numeral-11.10/1";
+    // if(regex2.test(currentUrl)) return location.href = "/numeral-11.10/1";
+    // if(regex.test(currentUrl)) return history.back();
+    if(regex.test(currentUrl) || regex2.test(currentUrl)) return location.href = "/"
     const urlSegments =  currentUrl.split("/");
     if(currentUrl.endsWith("/")){
       urlSegments.splice(urlSegments.length - 1, 1);
