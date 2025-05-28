@@ -151,6 +151,42 @@ export const data_numeral_11_10: StatementInformation[] = [
 export const undergraduate_information_by_year: UndegraduateInformationByYear[] =
   [
     {
+      yearId: 1,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2024",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2024/Admision2024.html",
+        },
+      ],
+    },
+    {
+      yearId: 2,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2023",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2023/mobile/index.html",
+        },
+      ],
+    },
+    {
+      yearId: 3,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2022",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2022/mobile/index.html#p=1",
+        },
+      ],
+    },
+    {
+      yearId: 4,
+      items: [
+        {
+          label: "Número de Postulantes e Ingresantes - 2021",
+          url: "https://admisionunt.info/docs/historico/libros_virtuales/2021/mobile/index.html#p=1",
+        },
+      ],
+    },
+    {
       yearId: 5,
       items: [
         {
