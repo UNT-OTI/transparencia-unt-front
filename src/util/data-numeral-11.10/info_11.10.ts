@@ -13,6 +13,15 @@ export const data_numeral_11_10: StatementInformation[] = [
     icon: "fa-solid fa-list-ol",
     rangeStatementItem: [
       {
+        buttonDescription: "Pregrado",
+        buttonTooltip:
+          "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2024",
+        filePath: "/numeral-11.10/pregrado/1",
+        hasTargetBlank: false,
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-arrow-up-right-from-square",
+      },
+      {
         buttonDescription: "Seg. Especialidad",
         buttonTooltip:
           "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 4",
@@ -30,6 +39,15 @@ export const data_numeral_11_10: StatementInformation[] = [
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
     icon: "fa-solid fa-list-ol",
     rangeStatementItem: [
+      {
+        buttonDescription: "Pregrado",
+        buttonTooltip:
+          "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2023",
+        filePath: "/numeral-11.10/pregrado/2",
+        hasTargetBlank: false,
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-arrow-up-right-from-square",
+      },
       {
         buttonDescription: "Seg. Especialidad",
         buttonTooltip:
@@ -49,6 +67,15 @@ export const data_numeral_11_10: StatementInformation[] = [
     icon: "fa-solid fa-list-ol",
     rangeStatementItem: [
       {
+        buttonDescription: "Pregrado",
+        buttonTooltip:
+          "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2022",
+        filePath: "/numeral-11.10/pregrado/3",
+        hasTargetBlank: false,
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-arrow-up-right-from-square",
+      },
+      {
         buttonDescription: "Seg. Especialidad",
         buttonTooltip:
           "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2022",
@@ -66,6 +93,15 @@ export const data_numeral_11_10: StatementInformation[] = [
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
     icon: "fa-solid fa-list-ol",
     rangeStatementItem: [
+      {
+        buttonDescription: "Pregrado",
+        buttonTooltip:
+          "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2021",
+        filePath: "/numeral-11.10/pregrado/4",
+        hasTargetBlank: false,
+        hasAlternIcon: true,
+        alternIcon: "fa-solid fa-arrow-up-right-from-square",
+      },
       {
         buttonDescription: "Seg. Especialidad",
         buttonTooltip:
@@ -157,6 +193,14 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
           label: "Número de Postulantes e Ingresantes - 2024",
           url: "https://admisionunt.info/docs/historico/libros_virtuales/2024/Admision2024.html",
         },
+        {
+          label: "Número de Matriculados - 2024",
+          url: "/files/numeral-11.10/2024/alumnos_pregrado_2024.pdf",
+        },
+        {
+          label: "Número de Egresados - 2024",
+          url: "/files/numeral-11.10/2024/alumnos_egresados_2024.pdf",
+        },
       ],
     },
     {
@@ -165,6 +209,14 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
         {
           label: "Número de Postulantes e Ingresantes - 2023",
           url: "https://admisionunt.info/docs/historico/libros_virtuales/2023/mobile/index.html",
+        },
+        {
+          label: "Número de Matriculados - 2023",
+          url: "/files/numeral-11.10/2023/alumnos_pregrado_2023.pdf",
+        },
+        {
+          label: "Número de Egresados - 2023",
+          url: "/files/numeral-11.10/2023/alumnos_egresados_2023.pdf",
         },
       ],
     },
@@ -175,6 +227,14 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
           label: "Número de Postulantes e Ingresantes - 2022",
           url: "https://admisionunt.info/docs/historico/libros_virtuales/2022/mobile/index.html#p=1",
         },
+        {
+          label: "Número de Matriculados - 2022",
+          url: "/files/numeral-11.10/2022/alumnos_pregrado_2022.pdf",
+        },
+        {
+          label: "Número de Egresados - 2022",
+          url: "/files/numeral-11.10/2022/alumnos_egresados_2022.pdf",
+        },
       ],
     },
     {
@@ -183,6 +243,14 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
         {
           label: "Número de Postulantes e Ingresantes - 2021",
           url: "https://admisionunt.info/docs/historico/libros_virtuales/2021/mobile/index.html#p=1",
+        },
+        {
+          label: "Número de Matriculados - 2021",
+          url: "/files/numeral-11.10/2021/alumnos_pregrado_2021.pdf",
+        },
+        {
+          label: "Número de Egresados - 2021",
+          url: "/files/numeral-11.10/2021/alumnos_egresados_2021.pdf",
         },
       ],
     },
