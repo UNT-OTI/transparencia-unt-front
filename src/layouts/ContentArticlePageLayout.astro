@@ -1,0 +1,32 @@
+<section class="max-w-6xl mx-auto my-16 px-4">
+  <div class="mb-4 sm:block hidden">
+    <button id="back-btn" class="text-[#12377B] hover:underline">
+      <i class="fa-solid fa-left-long mr-2"></i>Atrás
+    </button>
+  </div>
+  <div class="mt-10 flex flex-col space-y-5">
+    <slot />
+  </div>
+</section>
+
+<script>
+  const backButton = document.querySelector("#back-btn");
+  const regex = /\/numeral-11\.10\/\d+\/?$/;
+  backButton.addEventListener("click", (e)=>{
+    e.preventDefault();
+    const currentUrl = location.pathname;
+    if(regex.test(currentUrl)) return history.back();
+    const urlSegments =  currentUrl.split("/");
+    if(currentUrl.endsWith("/")){
+      urlSegments.splice(urlSegments.length - 1, 1);
+    }
+    if(!isNaN(+urlSegments.at(-1))){
+      urlSegments.splice(urlSegments.length - 2, 2);
+    }else{
+      urlSegments.splice(urlSegments.length - 1, 1);
+    }
+    urlSegments[urlSegments.length-1] = urlSegments.at(-1) || "/";
+    const backUrl = urlSegments.join("/");
+    location.href = backUrl;
+  });
+</script>
