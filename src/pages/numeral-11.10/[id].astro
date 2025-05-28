@@ -18,12 +18,7 @@ export const getStaticPaths = (() => {
 const { id } = Astro.params;
 
 const information = undergraduate_information_by_year.find(item => item.yearId == +id);
-let items = null;
-if(!information){
-  items = [];
-}else {
-  items = information.items;
-}
+const items = information ? information.items : [];
 ---
 
 <MainLayout pageTitle="Numeral 11.10 de la Ley Universitaria">
