@@ -7,6 +7,78 @@ export const data_numeral_11_10: StatementInformation[] = [
   {
     id: 1,
     lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2024.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 4",
+        filePath:
+          "/files/numeral-11.10/2024/alumnos_segunda_especialidad_2024.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 2,
+    lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2023.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2023",
+        filePath:
+          "/files/numeral-11.10/2023/alumnos_segunda_especialidad_2023.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 3,
+    lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2022.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2022",
+        filePath:
+          "/files/numeral-11.10/2022/alumnos_segunda_especialidad_2022.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 4,
+    lawDescription:
+      "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2021.",
+    lawSubInformation:
+      "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
+    icon: "fa-solid fa-list-ol",
+    rangeStatementItem: [
+      {
+        buttonDescription: "Seg. Especialidad",
+        buttonTooltip:
+          "Descargar información del número de postulantes, ingresantes, matriculados y egresados de segunda especialidad en el año 2021",
+        filePath:
+          "/files/numeral-11.10/2021/alumnos_segunda_especialidad_2021.pdf",
+        hasTargetBlank: true,
+      },
+    ],
+  },
+  {
+    id: 5,
+    lawDescription:
       "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2020.",
     lawSubInformation:
       "Transparencia de Universidades – Ley 30220 - Artículo 11 - Numeral 11.10",
@@ -16,7 +88,7 @@ export const data_numeral_11_10: StatementInformation[] = [
         buttonDescription: "Pregrado",
         buttonTooltip:
           "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2020",
-        filePath: "/numeral-11.10/1",
+        filePath: "/numeral-11.10/5",
         hasTargetBlank: false,
         hasAlternIcon: true,
         alternIcon: "fa-solid fa-arrow-up-right-from-square",
@@ -32,7 +104,7 @@ export const data_numeral_11_10: StatementInformation[] = [
     ],
   },
   {
-    id: 2,
+    id: 6,
     lawDescription:
       "Número de postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2019.",
     lawSubInformation:
@@ -43,7 +115,7 @@ export const data_numeral_11_10: StatementInformation[] = [
         buttonDescription: "Pregrado",
         buttonTooltip:
           "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2019",
-        filePath: "/numeral-11.10/2",
+        filePath: "/numeral-11.10/6",
         hasTargetBlank: false,
         hasAlternIcon: true,
         alternIcon: "fa-solid fa-arrow-up-right-from-square",
@@ -79,7 +151,7 @@ export const data_numeral_11_10: StatementInformation[] = [
 export const undergraduate_information_by_year: UndegraduateInformationByYear[] =
   [
     {
-      yearId: 1,
+      yearId: 5,
       items: [
         {
           label: "Número de Postulantes e Ingresantes - 2020",
@@ -96,7 +168,7 @@ export const undergraduate_information_by_year: UndegraduateInformationByYear[] 
       ],
     },
     {
-      yearId: 2,
+      yearId: 6,
       items: [
         {
           label: "Número de Postulantes e Ingresantes - 2019",
