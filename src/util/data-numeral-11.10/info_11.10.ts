@@ -88,7 +88,7 @@ export const data_numeral_11_10: StatementInformation[] = [
         buttonDescription: "Pregrado",
         buttonTooltip:
           "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2020",
-        filePath: "/numeral-11.10/5",
+        filePath: "/numeral-11.10/pregrado/5",
         hasTargetBlank: false,
         hasAlternIcon: true,
         alternIcon: "fa-solid fa-arrow-up-right-from-square",
@@ -115,7 +115,7 @@ export const data_numeral_11_10: StatementInformation[] = [
         buttonDescription: "Pregrado",
         buttonTooltip:
           "Ver información de los postulantes, ingresantes, matriculados y egresados de pregrado por programa de estudio en el año 2019",
-        filePath: "/numeral-11.10/6",
+        filePath: "/numeral-11.10/pregrado/6",
         hasTargetBlank: false,
         hasAlternIcon: true,
         alternIcon: "fa-solid fa-arrow-up-right-from-square",

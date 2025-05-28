@@ -74,7 +74,7 @@ export const numerales_articulo_11_ley_universitaria: NumeralItem[] = [
     descripcion:
       "El número de postulantes, ingresantes, matriculados y egresados por año y carrera.",
     icon: "fa-solid fa-list-ol",
-    url: "/numeral-11.10",
+    url: "/numeral-11.10/1",
   },
   {
     id: 11,
